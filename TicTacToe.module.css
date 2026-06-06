@@ -1,0 +1,222 @@
+.square {
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: #323438;
+  position: relative;
+  background-color: #e9eaee;
+  
+  color: aqua; 
+  overflow: hidden;
+}
+
+.square:hover{
+  background-color: rgb(116, 109, 109);
+
+}
+.square_filled{
+  width: 80px;
+  height: 80px;
+  font-size: 2rem;
+  text-align: center;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  pointer-events: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: #323438;
+  position: relative;
+  background-color: #e9eaee;
+  
+  color: aqua; 
+  overflow: hidden;
+}
+.three {
+  display: flex;
+  flex-direction: row;
+  /* gap:2.5px; */
+}
+.outer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 70em;
+  width: 100%;
+  /* height: auto; */
+  background: linear-gradient(90deg, rgb(43, 43, 145), rgb(183, 36, 36));
+} 
+
+.wonElemnet{
+    color: rgb(208, 177, 38);
+    border-color: rgb(208, 177, 38);
+    background-color: rgb(208, 177, 38);
+    /* background: linear-gradient(135deg, rgb(24, 22, 24), red); */
+}
+
+.grid{
+    background-color: rgb(116, 109, 109);
+    height: auto;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+    border-radius: 15px;
+    
+}
+
+.x{
+    color: red;
+}
+
+.o{
+    color: blue;
+}
+
+.title{
+  font-weight: 150;
+  font-size : 45px;
+  text-align : center;
+  margin: 0 0 50px;
+}
+.titleX{
+  color: red;
+  font-size: 50px;
+}
+.titleO{
+  color: blue;
+  font-size: 50px;
+}
+
+.restartButton{
+  letter-spacing: 2px;
+  margin: 25px 0 20px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 200px;
+}
+
+.restartButton:hover{
+  
+  background-color: rgb(116, 109, 109);
+}
+
+.restart{
+  /* background-color: red; */
+  align-items: center;
+}
+
+.scores{
+  display: flex;
+  flex-direction: row;
+  gap: 25px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 50px;
+  font-size: 20px;
+}
+
+.scoreX{
+  color: red;
+  font-size: 40px;
+}
+.scoreO{
+  color: blue;
+  font-size: 40px;
+}
+.scoreD{
+  font-size: 40px;
+}
+.scorescol{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.turn{
+  margin: 0 0 50px;
+  font-size: 35px;
+}
+
+.winner{
+  margin: 0 0 50px;
+}
+
+.bottombtns{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+.confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10;
+}
+.gridWrapper {
+    position: relative;
+}
+
+.blur {
+    filter: blur(4px);
+    pointer-events: none;
+}
+
+.confirm {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    z-index: 10;
+    width: 300px;
+}
+.bottomOnConfirm{
+  pointer-events: none;
+}
+
+.yesnob{
+  letter-spacing: 2px;
+  margin: 25px 0 20px;
+  padding: 10px;
+  font-size: 25px;
+  border-radius: 20px;
+  width: 100px;
+}
+
+.yesnob:hover{
+  background-color: rgb(116, 109, 109);
+
+}
+.yesno{
+  gap:25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
